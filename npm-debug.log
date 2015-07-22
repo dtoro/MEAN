@@ -1,0 +1,217 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/home/ubuntu/.nvm/v0.10.35/bin/node',
+1 verbose cli   '/home/ubuntu/.nvm/v0.10.35/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'express-generator',
+1 verbose cli   '-',
+1 verbose cli   'g' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.35
+4 verbose cache add [ 'express-generator', null ]
+5 verbose cache add name=undefined spec="express-generator" args=["express-generator",null]
+6 verbose parsed url { protocol: null,
+6 verbose parsed url   slashes: null,
+6 verbose parsed url   auth: null,
+6 verbose parsed url   host: null,
+6 verbose parsed url   port: null,
+6 verbose parsed url   hostname: null,
+6 verbose parsed url   hash: null,
+6 verbose parsed url   search: null,
+6 verbose parsed url   query: null,
+6 verbose parsed url   pathname: 'express-generator',
+6 verbose parsed url   path: 'express-generator',
+6 verbose parsed url   href: 'express-generator' }
+7 verbose cache add [ '-', null ]
+8 verbose cache add name=undefined spec="-" args=["-",null]
+9 verbose parsed url { protocol: null,
+9 verbose parsed url   slashes: null,
+9 verbose parsed url   auth: null,
+9 verbose parsed url   host: null,
+9 verbose parsed url   port: null,
+9 verbose parsed url   hostname: null,
+9 verbose parsed url   hash: null,
+9 verbose parsed url   search: null,
+9 verbose parsed url   query: null,
+9 verbose parsed url   pathname: '-',
+9 verbose parsed url   path: '-',
+9 verbose parsed url   href: '-' }
+10 verbose cache add [ 'g', null ]
+11 verbose cache add name=undefined spec="g" args=["g",null]
+12 verbose parsed url { protocol: null,
+12 verbose parsed url   slashes: null,
+12 verbose parsed url   auth: null,
+12 verbose parsed url   host: null,
+12 verbose parsed url   port: null,
+12 verbose parsed url   hostname: null,
+12 verbose parsed url   hash: null,
+12 verbose parsed url   search: null,
+12 verbose parsed url   query: null,
+12 verbose parsed url   pathname: 'g',
+12 verbose parsed url   path: 'g',
+12 verbose parsed url   href: 'g' }
+13 silly lockFile 198a68d8-express-generator express-generator
+14 verbose lock express-generator /home/ubuntu/.npm/198a68d8-express-generator.lock
+15 silly lockFile 3bc15c8a- -
+16 verbose lock - /home/ubuntu/.npm/3bc15c8a-.lock
+17 silly lockFile 54fd1711-g g
+18 verbose lock g /home/ubuntu/.npm/54fd1711-g.lock
+19 silly lockFile 198a68d8-express-generator express-generator
+20 silly lockFile 198a68d8-express-generator express-generator
+21 silly lockFile 3bc15c8a- -
+22 silly lockFile 3bc15c8a- -
+23 silly lockFile 54fd1711-g g
+24 silly lockFile 54fd1711-g g
+25 verbose addNamed [ 'express-generator', '' ]
+26 verbose addNamed [ null, '*' ]
+27 silly lockFile bd41e3d3-express-generator express-generator@
+28 verbose lock express-generator@ /home/ubuntu/.npm/bd41e3d3-express-generator.lock
+29 verbose addNamed [ '-', '' ]
+30 verbose addNamed [ null, '*' ]
+31 silly lockFile c75fe0d4- -@
+32 verbose lock -@ /home/ubuntu/.npm/c75fe0d4-.lock
+33 verbose addNamed [ 'g', '' ]
+34 verbose addNamed [ null, '*' ]
+35 silly lockFile 8b047e1f-g g@
+36 verbose lock g@ /home/ubuntu/.npm/8b047e1f-g.lock
+37 silly addNameRange { name: 'express-generator', range: '*', hasData: false }
+38 silly addNameRange { name: '-', range: '*', hasData: false }
+39 verbose request where is /express-generator
+40 verbose request registry https://registry.npmjs.org/
+41 verbose request id 56df4d535d20c9ea
+42 verbose url raw /express-generator
+43 verbose url resolving [ 'https://registry.npmjs.org/', './express-generator' ]
+44 verbose url resolved https://registry.npmjs.org/express-generator
+45 verbose request where is https://registry.npmjs.org/express-generator
+46 info trying registry request attempt 1 at 19:02:50
+47 http GET https://registry.npmjs.org/express-generator
+48 silly addNameRange { name: 'g', range: '*', hasData: false }
+49 verbose request where is /-
+50 verbose request registry https://registry.npmjs.org/
+51 verbose url raw /-
+52 verbose url resolving [ 'https://registry.npmjs.org/', './-' ]
+53 verbose url resolved https://registry.npmjs.org/-
+54 verbose request where is https://registry.npmjs.org/-
+55 info trying registry request attempt 1 at 19:02:50
+56 http GET https://registry.npmjs.org/-
+57 verbose request where is /g
+58 verbose request registry https://registry.npmjs.org/
+59 verbose url raw /g
+60 verbose url resolving [ 'https://registry.npmjs.org/', './g' ]
+61 verbose url resolved https://registry.npmjs.org/g
+62 verbose request where is https://registry.npmjs.org/g
+63 info trying registry request attempt 1 at 19:02:50
+64 http GET https://registry.npmjs.org/g
+65 http 200 https://registry.npmjs.org/g
+66 silly registry.get cb [ 200,
+66 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+66 silly registry.get     etag: '"8AYIUDSUHLGXZT7X52XKA2O0S"',
+66 silly registry.get     'content-type': 'application/json',
+66 silly registry.get     'cache-control': 'max-age=60',
+66 silly registry.get     'content-length': '6814',
+66 silly registry.get     'accept-ranges': 'bytes',
+66 silly registry.get     date: 'Wed, 22 Jul 2015 19:02:50 GMT',
+66 silly registry.get     via: '1.1 varnish',
+66 silly registry.get     age: '0',
+66 silly registry.get     connection: 'keep-alive',
+66 silly registry.get     'x-served-by': 'cache-ord1727-ORD',
+66 silly registry.get     'x-cache': 'MISS',
+66 silly registry.get     'x-cache-hits': '0',
+66 silly registry.get     'x-timer': 'S1437591770.619831,VS0,VE50',
+66 silly registry.get     vary: 'Accept' } ]
+67 http 200 https://registry.npmjs.org/express-generator
+68 silly registry.get cb [ 200,
+68 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+68 silly registry.get     etag: '"2NHMAM428LCLFRXI8E8PBJM75"',
+68 silly registry.get     'content-type': 'application/json',
+68 silly registry.get     'cache-control': 'max-age=60',
+68 silly registry.get     'content-length': '31751',
+68 silly registry.get     'accept-ranges': 'bytes',
+68 silly registry.get     date: 'Wed, 22 Jul 2015 19:02:50 GMT',
+68 silly registry.get     via: '1.1 varnish',
+68 silly registry.get     age: '0',
+68 silly registry.get     connection: 'keep-alive',
+68 silly registry.get     'x-served-by': 'cache-ord1733-ORD',
+68 silly registry.get     'x-cache': 'HIT',
+68 silly registry.get     'x-cache-hits': '1',
+68 silly registry.get     'x-timer': 'S1437591770.619321,VS0,VE36',
+68 silly registry.get     vary: 'Accept' } ]
+69 silly addNameRange number 2 { name: 'g', range: '*', hasData: true }
+70 silly addNameRange versions [ 'g',
+70 silly addNameRange   [ '1.0.0', '1.0.1', '1.0.2', '1.0.3', '1.0.4', '1.0.5', '2.0.0' ] ]
+71 verbose addNamed [ 'g', '2.0.0' ]
+72 verbose addNamed [ '2.0.0', '2.0.0' ]
+73 silly lockFile 228a2625-g-2-0-0 g@2.0.0
+74 verbose lock g@2.0.0 /home/ubuntu/.npm/228a2625-g-2-0-0.lock
+75 silly addNameRange number 2 { name: 'express-generator', range: '*', hasData: true }
+76 silly addNameRange versions [ 'express-generator',
+76 silly addNameRange   [ '1.0.0',
+76 silly addNameRange     '3.0.0',
+76 silly addNameRange     '4.0.0',
+76 silly addNameRange     '4.2.0',
+76 silly addNameRange     '4.8.0',
+76 silly addNameRange     '4.9.0',
+76 silly addNameRange     '4.10.0',
+76 silly addNameRange     '4.11.0',
+76 silly addNameRange     '4.11.1',
+76 silly addNameRange     '4.11.2',
+76 silly addNameRange     '4.12.0',
+76 silly addNameRange     '4.12.1',
+76 silly addNameRange     '4.12.4',
+76 silly addNameRange     '4.13.0',
+76 silly addNameRange     '4.13.1' ] ]
+77 verbose addNamed [ 'express-generator', '4.13.1' ]
+78 verbose addNamed [ '4.13.1', '4.13.1' ]
+79 silly lockFile 9dc5f3d4-express-generator-4-13-1 express-generator@4.13.1
+80 verbose lock express-generator@4.13.1 /home/ubuntu/.npm/9dc5f3d4-express-generator-4-13-1.lock
+81 silly lockFile 27b4bcd3-registry-npmjs-org-g-g-2-0-0-tgz https://registry.npmjs.org/g/-/g-2.0.0.tgz
+82 verbose lock https://registry.npmjs.org/g/-/g-2.0.0.tgz /home/ubuntu/.npm/27b4bcd3-registry-npmjs-org-g-g-2-0-0-tgz.lock
+83 silly lockFile c83a1f7b-tor-express-generator-4-13-1-tgz https://registry.npmjs.org/express-generator/-/express-generator-4.13.1.tgz
+84 verbose lock https://registry.npmjs.org/express-generator/-/express-generator-4.13.1.tgz /home/ubuntu/.npm/c83a1f7b-tor-express-generator-4-13-1-tgz.lock
+85 verbose addRemoteTarball [ 'https://registry.npmjs.org/g/-/g-2.0.0.tgz',
+85 verbose addRemoteTarball   '7a77ca0d66b65b206ce1d362428b4b8ee6b3a420' ]
+86 verbose addRemoteTarball [ 'https://registry.npmjs.org/express-generator/-/express-generator-4.13.1.tgz',
+86 verbose addRemoteTarball   '58351b31f0c7da770c2872bf2a50b9e9359f9968' ]
+87 info retry fetch attempt 1 at 19:02:50
+88 verbose fetch to= /tmp/npm-13680-4-9YwVpy/registry.npmjs.org/g/-/g-2.0.0.tgz
+89 http GET https://registry.npmjs.org/g/-/g-2.0.0.tgz
+90 info retry fetch attempt 1 at 19:02:50
+91 verbose fetch to= /tmp/npm-13680-4-9YwVpy/registry.npmjs.org/express-generator/-/express-generator-4.13.1.tgz
+92 http 404 https://registry.npmjs.org/-
+93 silly registry.get cb [ 404,
+93 silly registry.get   { 'content-type': 'application/json',
+93 silly registry.get     'cache-control': 'max-age=0',
+93 silly registry.get     'content-length': '57',
+93 silly registry.get     'accept-ranges': 'bytes',
+93 silly registry.get     date: 'Wed, 22 Jul 2015 19:02:50 GMT',
+93 silly registry.get     via: '1.1 varnish',
+93 silly registry.get     age: '0',
+93 silly registry.get     connection: 'keep-alive',
+93 silly registry.get     'x-served-by': 'cache-dfw1830-DFW',
+93 silly registry.get     'x-cache': 'MISS',
+93 silly registry.get     'x-cache-hits': '0',
+93 silly registry.get     'x-timer': 'S1437591770.654874,VS0,VE36' } ]
+94 http GET https://registry.npmjs.org/express-generator/-/express-generator-4.13.1.tgz
+95 silly lockFile c75fe0d4- -@
+96 silly lockFile c75fe0d4- -@
+97 http 200 https://registry.npmjs.org/g/-/g-2.0.0.tgz
+98 http 200 https://registry.npmjs.org/express-generator/-/express-generator-4.13.1.tgz
+99 silly lockFile 27b4bcd3-registry-npmjs-org-g-g-2-0-0-tgz https://registry.npmjs.org/g/-/g-2.0.0.tgz
+100 silly lockFile 27b4bcd3-registry-npmjs-org-g-g-2-0-0-tgz https://registry.npmjs.org/g/-/g-2.0.0.tgz
+101 silly lockFile 228a2625-g-2-0-0 g@2.0.0
+102 silly lockFile 228a2625-g-2-0-0 g@2.0.0
+103 silly lockFile 8b047e1f-g g@
+104 silly lockFile 8b047e1f-g g@
+105 silly lockFile c83a1f7b-tor-express-generator-4-13-1-tgz https://registry.npmjs.org/express-generator/-/express-generator-4.13.1.tgz
+106 silly lockFile c83a1f7b-tor-express-generator-4-13-1-tgz https://registry.npmjs.org/express-generator/-/express-generator-4.13.1.tgz
+107 silly lockFile 9dc5f3d4-express-generator-4-13-1 express-generator@4.13.1
+108 silly lockFile 9dc5f3d4-express-generator-4-13-1 express-generator@4.13.1
+109 silly lockFile bd41e3d3-express-generator express-generator@
+110 silly lockFile bd41e3d3-express-generator express-generator@
+111 error 404 Not Found
+112 error System Linux 3.14.13-c9
+113 error command "/home/ubuntu/.nvm/v0.10.35/bin/node" "/home/ubuntu/.nvm/v0.10.35/bin/npm" "install" "express-generator" "-" "g"
+114 error cwd /home/ubuntu/workspace
+115 error node -v v0.10.35
+116 error npm -v 1.4.28
+117 error code E404
+118 verbose exit [ 1, true ]
